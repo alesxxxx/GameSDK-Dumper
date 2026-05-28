@@ -1,0 +1,75 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+**/.vs/
+*.suo
+*.user
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.pkl
+
+# Build artifacts
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.exe
+*.dll
+*.sys
+
+# Driver build intermediates
+driver/obj/
+
+# Mapper build intermediates
+mapper/x64/
+mapper/.vs/
+mapper/**/*.obj
+mapper/**/*.pch
+
+# C# build artifacts
+src/ui/obj/
+
+# PyInstaller artifacts
+build/
+dist/
+*.spec
+
+# Output dumps
+nova_dump/
+dumper_dump/
+sdk/
+
+# Temp / Logs
+*.tmp
+*.log
+*.zip
+_tmp_*/
+nova_debug.log
+strip_result.txt
+test_output.txt
+
+# Games data (not shipped with source)
+games/
+
+# EFI bootkit (not shipped with source)
+efi/
+
+# Documentation (not shipped with source)
+docs/
+
+# Third-party tools
+tools/kdmapper/
+tools/il2cpp-dumper/
+
+# Archive
+archive/
+
+# Claude AI workspace metadata
+.claude/
